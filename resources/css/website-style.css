@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
+
+h2, h1 {
+  text-align: center;
+  font-family: 'Gloock', serif;
+  
+}
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+  }
+  
+  .box {
+    width: calc(20% - 90px);
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 11px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    font-weight: bold;
+    
+  }
+#font {
+  font-size: 15px;
+  font-weight: normal;
+}
+#text {
+  padding-top: 30px;
+}
+
+
